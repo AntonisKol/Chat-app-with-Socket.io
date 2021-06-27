@@ -1,5 +1,5 @@
 
-{
+{ "homepage": "http://AntonisKol.github.io/Chat-app-with-Socket.io",
   "name": "chat-app",
   "version": "1.0.0",
   "description": "Chat application with socket.io",
