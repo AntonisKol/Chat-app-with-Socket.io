@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+ 
+* {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+main {
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+#user-channel-list  {
+    height: 100%;
+     border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(36, 36, 36);
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0;
+}
+#active-list {
+    margin-left: -35px;
+    margin-top: 3px;
+}
+
+#chat-view {
+    height: 70%;
+}
+#chat-view > * {
+    width: 100%;
+}
+#chat-box {
+    height: 55vh;
+}
+#chat-view > section {
+    height: 5vh;
+}
+#chat-view > section > * {
+    height: 30px;
+    box-sizing: border-box;
+    margin: 0;
+}
+#chat-box {
+    border: 1px solid rgb(247, 247, 247);
+    width: 50vw;
+    border-radius: 5px;
+}
+.user {
+    display: flex;
+    margin: 5px;
+}
+.user:hover {
+    background-color: white;
+}
+.nick {
+    width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.avatar {
+    height: 50px;
+    width: 50px;
+}
+#send-btn {
+    background-color: darkgrey;
+    color: rgb(32, 53, 0);
+    border: none;
+    border-radius: 3px;
+}
+
+#send-btn:hover {
+    background-color: rgb(38, 72, 83);   
+     color: rgb(131, 218, 0);
+}
+span {
+    background-color: rgb(38, 72, 83);
+    color: rgb(131, 218, 0);
+ }
+    
+.btn {
+    border: 1px solid gray;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: rgb(38, 72, 83);
+}
+.btn:hover {
+background-color: rgb(28, 48, 54);
+padding: 10px 15px;
+}
+#msg-box {
+    background-color: rgb(38, 72, 83);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+
+.list-item {
+    color: white;
+    padding: 5px 5px;
+}
+.list-item:hover {
+    color: rgb(23, 134, 88);
+    cursor: pointer;
+}
+
+ul >.active {
+   background-color: rgb(54, 67, 71)!important;
+}
+ 
