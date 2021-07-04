@@ -1,24 +1,19 @@
-{"homepage":"https://chatappwithsocketio.herokuapp.com/",
+{"homepage":"https://antoniskol.github.io/Chat-app-with-Socket.io/",
   "name":"chat-app",
   "version":"1.0.0",
   "description":"Chat application with socket.io",
   "main":"app.js",
   "scripts":{
     "test":"echo \"Error: no test specified\" && exit 1"},
-    "start": "node app.js",
-    "build": "npm run build",
-    "heroku-postbuild": "npm run install-client",
-"keywords":[
+     "keywords":[
   "socket.io",
   "chat"],
   "author":"Antonis",
   "license":"ISC",
-  "dependencies":{"express":"^4.17.1",
+  "dependencies":{
+    "express":"^4.17.1",
     "jsonwebtoken":"^8.5.1",
   "nodemon":"^2.0.9",
   "socket.io":"^4.1.2"
-},
-"engines": {
-"node": "14.16.1"
 }
 }
