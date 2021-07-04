@@ -70,9 +70,6 @@ const listManager = () => {
 }
 
 socket.on('chat msg', envelope => {
-
-    //if envelope.channel == onse of the keys of state.usedChannels
-
     if(envelope.user) {
 
         document.querySelector('#chat-box').insertAdjacentHTML("beforeend", `<li>${envelope.msg}</li>`);
